@@ -1,0 +1,32 @@
+{
+    "name": "vhrome-tab-rotator",
+    "description" : "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+	"scripts": [
+	    "background.js"
+	]
+    },
+    "browser_action": {
+	"default_popup": "hello.html",
+	"default_icon": "hello_extensions.png"
+    },
+    "commands": {
+	"toggle-rotation": {
+	    "suggested_key": {
+		"default": "Ctrl+Shift+S",
+		"mac": "Ctrl+Shift+S"
+	    },
+	    "description": "Start/Stop chrome-tab-rotator"
+	}
+    },
+    "permissions": [
+	"commands",
+	"contentSettings",
+	"tabs",
+	"storage",
+	"http://*/*",
+	"https://*/*"
+	  ]
+}
