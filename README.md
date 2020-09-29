@@ -19,4 +19,6 @@ See https://developer.chrome.com/extensions/getstarted
 
 ## To Use
 
-Activate/De-activate with "Ctrl+Shift+S"
+Activate/De-activate with:
+* "Ctrl+Shift+S" on ChromeOS
+* "Command+Shift+S" on MacOS
